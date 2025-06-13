@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <nav class="navbar bg-base-100 shadow-sm sticky top-0 z-50">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-500 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          >
+            <li><a href="index.html" class="menu-active">Beranda</a></li>
+            <li>
+              <a href="daftar materi.html">Daftar Materi</a>
+            </li>
+            <li><a href="Tentang Guru.html">Tentang Guru</a></li>
+            <li><a href="kontak and feedback.html">Kontak/Feedback</a></li>
+          </ul>
+        </div>
+        <a class="lg:pl-5 text-xl">PPLG</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal gap-3">
+          <li><a href="index.html" class="menu-active">Beranda</a></li>
+          <li>
+            <a href="daftar materi.html">Daftar Materi</a>
+          </li>
+          <li><a href="Tentang Guru.html">Tentang Guru</a></li>
+          <li><a href="kontak and feedback.html">Kontak/Feedback</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end gap-3 mr-5">
+        <label class="swap swap-rotate items-center">
+          <input type="checkbox" class="theme-controller" value="light" />
+
+          <svg
+            class="swap-off size-7 fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"
+            />
+          </svg>
+
+          <svg
+            class="swap-on size-7 fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"
+            />
+          </svg>
+        </label>
+        <a class="btn btn-primary btn-sm" href="sign up.html">Sign Up</a>
+      </div>
+    </nav>
+
+    <div class="hero bg-base-200 min-h-screen">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img
+          src="Video/Video_Anime_Bingung.gif"
+          class="lg:max-w-[600px] md:w-[650px] rounded-lg shadow-2xl"
+        />
+        <div>
+          <h1 class="text-5xl font-bold">
+            Media Pembelajaran Pengembangan Perangkat Lunak dan Gim
+          </h1>
+          <p class="py-6">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illo
+            nostrum maxime ab similique voluptas dignissimos dolor, corrupti
+            eveniet consectetur molestiae placeat reiciendis odit, culpa dolorem
+            ipsa ut? Obcaecati, asperiores. Iure sit pariatur magni
+            exercitationem quasi consequuntur autem et beatae, necessitatibus,
+            unde alias fugit veritatis dolorum cupiditate, eius dolore. Omnis
+            inventore quae repellendus distinctio. Aperiam voluptas sit
+            aspernatur error impedit!
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a
+              href="daftar materi.html"
+              class="btn btn-primary btn-lg shadow-lg"
+              >Pilih Materi</a
+            >
+            <a href="#fitur" class="btn btn-ghost border border-primary btn-lg"
+              >Lihat Fitur</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- features -->
+    <div id="fitur" class="flex justify-center py-16 md:py-24 bg-base-100">
+      <div class="container px-4 md:px-8 text-center lg:w-330">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          Kenapa Belajar di Sini?
+        </h2>
+        <p class="text-lg text-base-content/70 max-w-3xl mx-auto mb-12">
+          Kami menyediakan semua yang kamu butuhkan untuk bertransformasi dari
+          pemula menjadi programmer siap kerja.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div
+            class="card bg-base-200/50 p-8 text-center items-center transform transition-transform duration-300 hover:-translate-y-2"
+          >
+            <div
+              class="bg-primary text-primary-content rounded-full p-5 mb-6 inline-block"
+            >
+              <i class="fa-solid fa-puzzle-piece text-3xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-2">Latihan Interaktif</h3>
+            <p>
+              Pecahkan studi kasus nyata langsung di browser. Tak perlu install
+              apa-apa, cukup fokus pada logika.
+            </p>
+          </div>
+          <div
+            class="card bg-base-200/50 p-8 text-center items-center transform transition-transform duration-300 hover:-translate-y-2"
+          >
+            <div
+              class="bg-secondary text-secondary-content rounded-full p-5 mb-6 inline-block"
+            >
+              <i class="fa-solid fa-bolt text-3xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-2">Feedback Instan</h3>
+            <p>
+              Gunakan test case yang kami siapkan untuk memeriksa kodemu secara
+              otomatis dan temukan bug lebih cepat.
+            </p>
+          </div>
+          <div
+            class="card bg-base-200/50 p-8 text-center items-center transform transition-transform duration-300 hover:-translate-y-2"
+          >
+            <div
+              class="bg-accent text-accent-content rounded-full p-5 mb-6 inline-block"
+            >
+              <i class="fa-solid fa-trophy text-3xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-2">Kurikulum Terstruktur</h3>
+            <p>
+              Materi disusun dari dasar hingga mahir, sesuai dengan kurikulum
+              PPLG untuk membantumu naik level.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- coding -->
+    <div
+      id="materi"
+      class="flex items-center pb-20 pt-10 justify-center bg-base-200 min-h-screen px-4"
+    >
+      <div class="flex flex-col w-313 gap-5">
+        <h2 class="text-4xl md:text-5xl font-bold text-center mb-12">
+          Mulai Perjalanan Kodingmu
+        </h2>
+
+        <div
+          id="card-grid"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+        >
+          <div
+            class="p-10 w-full rounded-xl bg-base-100 transition-transform duration-300 hover:scale-97"
+          >
+            <div class="flex flex-col gap-2">
+              <svg
+                class="size-13 p-1 bg-slate-800/80 border border-slate-600 rounded-md"
+                viewBox="0 0 128 128"
+              >
+                <path
+                  fill="#F34F29"
+                  d="M124.737 58.378L69.621 3.264c-3.172-3.174-8.32-3.174-11.497 0L46.68 14.71l14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314 2.703 2.706 3.461 6.607 2.294 9.993l13.992 13.993c3.385-1.167 7.292-.413 9.994 2.295 3.78 3.777 3.78 9.9 0 13.679a9.673 9.673 0 01-13.683 0 9.677 9.677 0 01-2.105-10.521L68.574 47.933l-.002 34.341a9.708 9.708 0 012.559 1.828c3.778 3.777 3.778 9.898 0 13.683-3.779 3.777-9.904 3.777-13.679 0-3.778-3.784-3.778-9.905 0-13.683a9.65 9.65 0 013.167-2.11V47.333a9.581 9.581 0 01-3.167-2.111c-2.862-2.86-3.551-7.06-2.083-10.576L41.056 20.333 3.264 58.123a8.133 8.133 0 000 11.5l55.117 55.114c3.174 3.174 8.32 3.174 11.499 0l54.858-54.858a8.135 8.135 0 00-.001-11.501z"
+                ></path>
+              </svg>
+              <h2 class="text-3xl font-bold">GIT</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci eveniet nostrum, dolor obcaecati corrupti illum ut
+                accusantium, a suscipit ex officia. Et quibusdam recusandae hic
+                sequi deleniti dolor quos commodi!
+              </p>
+            </div>
+          </div>
+          <div
+            class="p-10 w-full rounded-xl bg-base-100 transition-transform duration-300 hover:scale-97"
+          >
+            <div class="flex flex-col gap-2">
+              <svg
+                class="size-13 p-1 bg-slate-800/80 border border-slate-600 rounded-md"
+                viewBox="0 0 128 128"
+              >
+                <path
+                  fill="#E44D26"
+                  d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"
+                ></path>
+                <path
+                  fill="#F16529"
+                  d="M64 116.8l36.378-10.086 8.559-95.878H64z"
+                ></path>
+                <path
+                  fill="#EBEBEB"
+                  d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"
+                ></path>
+              </svg>
+              <h2 class="text-3xl font-bold">HTML</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci eveniet nostrum, dolor obcaecati corrupti illum ut
+                accusantium, a suscipit ex officia. Et quibusdam recusandae hic
+                sequi deleniti dolor quos commodi!
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="p-10 w-full rounded-xl bg-base-100 transition-transform duration-300 hover:scale-97"
+          >
+            <div class="flex flex-col gap-2">
+              <svg
+                class="size-13 p-1 bg-slate-800/80 border border-slate-600 rounded-md"
+                viewBox="0 0 128 128"
+              >
+                <path
+                  fill="#1572B6"
+                  d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"
+                ></path>
+                <path
+                  fill="#33A9DC"
+                  d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"
+                ></path>
+                <path
+                  fill="#EBEBEB"
+                  d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"
+                ></path>
+                <path
+                  fill="#EBEBEB"
+                  d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"
+                ></path>
+              </svg>
+              <h2 class="text-3xl font-bold">CSS</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci eveniet nostrum, dolor obcaecati corrupti illum ut
+                accusantium, a suscipit ex officia. Et quibusdam recusandae hic
+                sequi deleniti dolor quos commodi!
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="p-10 w-full rounded-xl bg-base-100 transition-transform duration-300 hover:scale-97"
+          >
+            <div class="flex flex-col gap-2">
+              <svg
+                class="size-13 p-1 bg-slate-800/80 border border-slate-600 rounded-md"
+                viewBox="0 0 128 128"
+              >
+                <path
+                  fill="#F0DB4F"
+                  d="M1.408 1.408h125.184v125.185H1.408z"
+                ></path>
+                <path
+                  fill="#323330"
+                  d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"
+                ></path>
+              </svg>
+              <h2 class="text-3xl font-bold">Javascript</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci eveniet nostrum, dolor obcaecati corrupti illum ut
+                accusantium, a suscipit ex officia. Et quibusdam recusandae hic
+                sequi deleniti dolor quos commodi!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button
+      id="scrollToTopBtn"
+      class="btn btn-primary btn-circle fixed bottom-5 left-5 opacity-0 invisible z-50"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 15l7-7 7 7"
+        />
+      </svg>
+    </button>
+
+    <!-- footer -->
+    <footer
+      class="footer footer-horizontal footer-center bg-base-100 text-primary-content p-10"
+    >
+      <aside>
+        <svg
+          width="50"
+          height="50"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          class="inline-block fill-current"
+        >
+          <path
+            d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"
+          ></path>
+        </svg>
+        <p class="font-bold">
+          Pembelajaran Pengembangan Perangkat Lunak dan Gim
+        </p>
+        <p>Copyright © 2025 - All right reserved</p>
+      </aside>
+      <nav>
+        <div class="grid grid-flow-col gap-4">
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+              ></path>
+            </svg>
+          </a>
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+              ></path>
+            </svg>
+          </a>
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </footer>
+
+    <script src="Javascript/script.js"></script>
+    <script src="Javascript/scroll-top.js"></script>
+  </body>
+</html>
